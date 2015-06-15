@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+}
+
+/*HEADER*/
+.header {
+  height: 25px;
+  background: #222;
+  color: #eee;
+  text-align: center;
+  font: 10px/25px Helvetica, Verdana, sans-serif; 
+}
+
+.header a {
+  color: #999;
+}
+
+/*PARAGRAPH*/
+p.share {
+  text-align: right;
+  float:right;
+  position: relative;
+  padding-left: 3px;
+  padding-right: 3px;
+  width:40%;
+  font: 35px/60px 'socialicoregular', Helvetica, sans-serif;
+}
+
+/*LINK*/
+.share a {
+  width:35%;
+  position: absolute;
+  top: 5px;
+  color: #555;
+  text-decoration: none;
+  font: 25px/50px 'socialicoregular', Helvetica, sans-serif;
+  opacity: 0;
+
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+/*HOVERS*/
+.share:hover {
+  cursor: pointer;
+}
+
+.share:hover a {
+  opacity: 1;
+  
+}
+
+.share a:hover {
+  color: #00afec;
+  font-size: 40px;
+}
+
+.share:hover a:nth-of-type(1) {
+  right: 50px;
+}
+ 
+.share:hover a:nth-of-type(2) {
+  right: 100px;
+}
+ 
+.share:hover a:nth-of-type(3) {
+  right: 150px;
+}
+
+
+.spin:hover a {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.flip:hover a {
+  -webkit-transform: rotateX(360deg);
+  -moz-transform: rotateX(360deg);
+  -o-transform: rotateX(360deg);
+  -ms-transform: rotateX(360deg);
+  transform: rotateX(360deg);
+}
+
+.twirl:hover a {
+  -webkit-transform: rotateY(360deg);
+  -moz-transform: rotateY(360deg);
+  -o-transform: rotateY(360deg);
+  -ms-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+}
+
+.crazy:hover a {
+  -webkit-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  -moz-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  -o-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  -ms-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+}
+
+.grow a {
+  -webkit-transform: scale(0.0);
+  -moz-transform: scale(0.0);
+  -o-transform: scale(0.0);
+  -ms-transform: scale(0.0);
+  transform: scale(0.0);
+}
+
+.grow:hover a {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/*FONT EMBED*/
+@font-face {
+  font-family: 'socialicoregular';
+  src: url('socialico-webfont.eot');
+  src: url('socialico-webfont.eot?#iefix') format('embedded-opentype'),
+       url('socialico-webfont.woff') format('woff'),
+       url('socialico-webfont.ttf') format('truetype'),
+       url('socialico-webfont.svg#socialicoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.reseau {
+    float:right;
+    position: relative;
+}
+
+.reseau img {
+opacity: 0.6;
+}
+.reseau img:hover {
+opacity: 1;
+}
