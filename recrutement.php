@@ -3,10 +3,10 @@
     <head>
          <title>Recrutement</title>
     </head>
-    <body>
-        <?php include("menu.php"); ?>
-            <div class="corps">
-            </div>
-        <?php include("footer.php"); ?>
-    </body>
+    <?php include("menu.php"); ?>
+    <div class="corps">
+        <body>
+        </body>
+    </div>
+    <?php include("footer.php"); ?>
 </html>

@@ -5,8 +5,8 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
-<div id="menu">
-    <body bgcolor=black>
+<body bgcolor=black>
+    <div id="menu">
         <ul id="navigation">
             <li><a><img src="images/banniere.png" style="width:140px; height:140px;"/></a></li>
             <li><a href="index.php" title="index.php">Accueil</a></li>
@@ -18,11 +18,11 @@
             <li><a href="recrutement.php" title="recrutement.php">Recrutement</a></li>
             <li><a href="contact.php" title="contact.php">Contact</a></li>
         </ul>
-    </body>
-</div>
-<p class ="reseau">
-    <a href="https://twitter.com/AdhsAssociation" target="_blank" title="Twitter"><img src="images/twitter-round-64.png" style="display: inline;"/></a>
-    <a href="https://www.facebook.com/adhsorbonne" target="_blank" title="Facebook Page"><img src="images/facebook-round-64.png" style="display: inline;"/></a>
-    <a href="https://www.youtube.com/channel/UCH2cSwQmrwCjqNtGDX_Qnpg" target="_blank" title="YouTube Channel"><img src="images/youtube-round-64.png" style="display: inline;"/></a>
-    <a href="http://instagram.com/adhsorbonne" target="_blank" title="Instagram Page"><img src="images/instagram-round-64.png" style="display: inline;"/></a>
-</p>
+    </div>
+    <p class ="reseau">
+        <a href="https://twitter.com/AdhsAssociation" target="_blank" title="Twitter"><img src="images/twitter-round-64.png" style="display: inline;"/></a>
+        <a href="https://www.facebook.com/adhsorbonne" target="_blank" title="Facebook Page"><img src="images/facebook-round-64.png" style="display: inline;"/></a>
+        <a href="https://www.youtube.com/channel/UCH2cSwQmrwCjqNtGDX_Qnpg" target="_blank" title="YouTube Channel"><img src="images/youtube-round-64.png" style="display: inline;"/></a>
+        <a href="http://instagram.com/adhsorbonne" target="_blank" title="Instagram Page"><img src="images/instagram-round-64.png" style="display: inline;"/></a>
+    </p>
+</body>
