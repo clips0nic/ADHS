@@ -9,7 +9,7 @@
     <body>
         <?php include("menu.php"); ?>
         <font color="white">
-            <div class="body">
+            <div class="corps">
             </div>
         </font>
         <?php include("footer.php"); ?>
