@@ -19,5 +19,4 @@
             </div>
         </body>
     </div>
-    <?php include("footer.php"); ?>
 </html>

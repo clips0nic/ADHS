@@ -19,10 +19,12 @@
             <li><a href="contact.php" title="contact.php">Contact</a></li>
         </ul>
     </div>
+    <div id="reseau">
     <p class ="reseau">
         <a href="https://twitter.com/AdhsAssociation" target="_blank" title="Twitter"><img src="images/twitter-round-64.png" style="display: inline;"/></a>
         <a href="https://www.facebook.com/adhsorbonne" target="_blank" title="Facebook Page"><img src="images/facebook-round-64.png" style="display: inline;"/></a>
         <a href="https://www.youtube.com/channel/UCH2cSwQmrwCjqNtGDX_Qnpg" target="_blank" title="YouTube Channel"><img src="images/youtube-round-64.png" style="display: inline;"/></a>
         <a href="http://instagram.com/adhsorbonne" target="_blank" title="Instagram Page"><img src="images/instagram-round-64.png" style="display: inline;"/></a>
     </p>
+        </div>
 </body>

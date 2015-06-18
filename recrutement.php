@@ -8,5 +8,4 @@
         <body>
         </body>
     </div>
-    <?php include("footer.php"); ?>
 </html>
