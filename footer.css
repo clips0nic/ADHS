@@ -7,4 +7,6 @@ html, body {
 
 .footer, .push {
 	height: 155px; /* .push must be the same height as .footer */
+    font-size: 13px;
+    color: white;
 }

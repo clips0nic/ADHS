@@ -5,4 +5,11 @@
 	margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
     margin-left: 300px;
     margin-right: 300px;
+    font: 1em "Trebuchet MS",Arial,sans-serif;
+    color: white;
 }
+
+a:visited 
+{ 
+color: orange; 
+} 

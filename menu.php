@@ -1,6 +1,8 @@
 <head>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="reseau.css">
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
 <div id="menu">
