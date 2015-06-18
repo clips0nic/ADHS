@@ -2,7 +2,7 @@
 <div class="downpage" style ="text-align:center;"> 
 </br>
 <font color="white">
-    <div class="fooxter">
+    <div class="footer">
         <b>Tous droits réservés -ADHS- &#0153</b>
         </br>
     <b>contact@adhsorbonne.org</b>

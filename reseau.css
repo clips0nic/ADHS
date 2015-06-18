@@ -1,6 +1,5 @@
 * {
   margin: 0;
-  margin-top: 10px;
   padding: 0;
 }
 
@@ -138,6 +137,8 @@ p.share {
 .reseau {
     float:right;
     position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 .reseau img {

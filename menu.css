@@ -1,5 +1,6 @@
 div#menu {
     float: left;
+    margin-top: 10px;
 }
 
 #navigation {
@@ -10,14 +11,12 @@ div#menu {
 }
 
 #navigation li {
-  background: #303030 ;
   color: #fff ;
   margin-bottom: 5px ;
 }
 
 #navigation li a {
   display: block ;
-  background: #303030 ;
   color: #fff ;
   font: 1em "Trebuchet MS",Arial,sans-serif ;
   line-height: 1em ;
@@ -27,5 +26,5 @@ div#menu {
 }
 
 #navigation li a:hover, #navigation li a:focus, #navigation li a:active {
-  background: #696969 ;
+    color: gold;
 }

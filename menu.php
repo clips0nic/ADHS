@@ -4,9 +4,9 @@
     <script src="script.js"></script>
 </head>
 <div id="menu">
-    <img src="images/banniere.png" style="position:relative; margin-left: 30px; width:140px; height:140px;"/>
     <body bgcolor=black>
         <ul id="navigation">
+            <li><a><img src="images/banniere.png" style="width:140px; height:140px;"/></a></li>
             <li><a href="index.php" title="index.php">Accueil</a></li>
             <li><a href="equipe.php" title="equipe.php">Equipe</a></li>
             <li><a href="evenements.php" title="evenements.php">Evénements</a></li>
