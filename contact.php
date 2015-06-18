@@ -4,7 +4,7 @@
          <title>Contact</title>
     </head>
     <?php include("menu.php"); ?>
-    <div class="corps">
+    <div id="corps">
         <body>
         </body>
     </div>
