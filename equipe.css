@@ -11,6 +11,6 @@ a {
 }
 
 #photos li {
- margin-left: 100px;
+ margin-left: 200px;
  float:left; /*pour IE*/
  }
